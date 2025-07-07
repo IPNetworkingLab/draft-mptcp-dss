@@ -2,7 +2,7 @@
 
 
 
-TCPM                                                           M. Baerts
+TCP Maintenance and Minor Extensions                           M. Baerts
 Internet-Draft                                 UCLouvain & NGI Zero Core
 Intended status: Standards Track                             7 July 2025
 Expires: 8 January 2026
@@ -26,13 +26,13 @@ About This Document
    mptcpdss.html.  Status information for this document may be found at
    https://datatracker.ietf.org/doc/draft-baerts-tcpm-mptcpdss/.
 
-   Discussion of this document takes place on the TCPM Individual
-   mailing list (mailto:tcpm@ietf.org), which is archived at
-   https://mailarchive.ietf.org/arch/browse/tcpm/.  Subscribe at
-   https://www.ietf.org/mailman/listinfo/tcpm/.
+   Discussion of this document takes place on the TCP Maintenance and
+   Minor Extensions Working Group mailing list (mailto:tcpm@ietf.org),
+   which is archived at https://mailarchive.ietf.org/arch/browse/tcpm/.
+   Subscribe at https://www.ietf.org/mailman/listinfo/tcpm/.
 
    Source for this draft and an issue tracker can be found at
-   https://github.com/IPNetworkingLab/draft-mptcp-v2.
+   https://github.com/IPNetworkingLab/draft-mptcp-dss.
 
 Status of This Memo
 
