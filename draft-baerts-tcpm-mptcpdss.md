@@ -8,17 +8,17 @@ number:
 date:
 consensus: true
 v: 3
-area: "Transport"
-workgroup: "TCPM"
+area: "Web and Internet Transport"
+workgroup: "TCP Maintenance and Minor Extensions"
 keyword:
  - mptcp
 venue:
-  group: "TCPM"
-  type: "Individual"
+  group: "TCP Maintenance and Minor Extensions"
+  type: "Working Group"
   mail: "tcpm@ietf.org"
   arch: "https://mailarchive.ietf.org/arch/browse/tcpm/"
-  github: "IPNetworkingLab/draft-mptcp-v2"
-  latest: "https://ipnetworkinglab.github.io/draft-mptcp-dss/draft-baerts-tcpm-mptcpdss.html"
+  github: "IPNetworkingLab/draft-mptcp-dss"
+  latest: "https://IPNetworkingLab.github.io/draft-mptcp-dss/draft-baerts-tcpm-mptcpdss.html"
 
 author:
  -
