@@ -18,7 +18,7 @@ venue:
   mail: "tcpm@ietf.org"
   arch: "https://mailarchive.ietf.org/arch/browse/tcpm/"
   github: "IPNetworkingLab/draft-mptcp-dss"
-  latest: "https://IPNetworkingLab.github.io/draft-mptcp-dss/draft-baerts-tcpm-mptcpdss.html"
+  latest: "https://ipnetworkinglab.github.io/draft-mptcp-dss/draft-baerts-tcpm-mptcpdss.html"
 
 author:
  -
