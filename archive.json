@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-02-17T02:09:11.362056+00:00",
+  "timestamp": "2026-02-19T02:11:40.176847+00:00",
   "repo": "IPNetworkingLab/draft-mptcp-dss",
   "labels": [
     {
@@ -50,5 +50,32 @@
     }
   ],
   "issues": [],
-  "pulls": []
+  "pulls": [
+    {
+      "number": 1,
+      "id": "PR_kwDOPIYp1c7EYqAY",
+      "title": "Variable length DSS option",
+      "url": "https://github.com/IPNetworkingLab/draft-mptcp-dss/pull/1",
+      "state": "OPEN",
+      "author": "obonaventure",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "First attempt to create a variable length DSS option that would support longer data-level length",
+      "createdAt": "2026-02-17T15:14:16Z",
+      "updatedAt": "2026-02-17T15:14:17Z",
+      "baseRepository": "IPNetworkingLab/draft-mptcp-dss",
+      "baseRefName": "main",
+      "baseRefOid": "97e80934e4c8486cd637bc5e7a44a6c3da56a865",
+      "headRepository": "IPNetworkingLab/draft-mptcp-dss",
+      "headRefName": "variable-length-dss",
+      "headRefOid": "c541e5cc92e179c1510adb2a5088e58bc881cc19",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    }
+  ]
 }
