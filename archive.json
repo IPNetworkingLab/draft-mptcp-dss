@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-02-22T02:11:56.296981+00:00",
+  "timestamp": "2026-02-24T02:09:31.265524+00:00",
   "repo": "IPNetworkingLab/draft-mptcp-dss",
   "labels": [
     {
@@ -63,7 +63,7 @@
       "labels": [],
       "body": "First attempt to create a variable length DSS option that would support longer data-level length",
       "createdAt": "2026-02-17T15:14:16Z",
-      "updatedAt": "2026-02-17T15:14:17Z",
+      "updatedAt": "2026-02-23T16:44:01Z",
       "baseRepository": "IPNetworkingLab/draft-mptcp-dss",
       "baseRefName": "main",
       "baseRefOid": "97e80934e4c8486cd637bc5e7a44a6c3da56a865",
@@ -75,7 +75,21 @@
       "mergedBy": null,
       "mergeCommit": null,
       "comments": [],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOPIYp1c7lA5jn",
+          "commit": {
+            "abbreviatedOid": "c541e5c"
+          },
+          "author": "matttbe",
+          "authorAssociation": "COLLABORATOR",
+          "state": "CHANGES_REQUESTED",
+          "body": "Thank you for this modification, and sorry for the delay.\n\nIf I'm remembering well, the original need is to increase the DLL size from 2 to 4 octets, by using the space reserved for the checksum (see Figure 2). So we don't use more option space, the packet size is not modified.\n\nIs the goal here to reduce the overall option space by 4 octets by eventually having the SSN on 2 octets and the DLL on 2 octets, aligned?\n\nIf yes, I don't see the point to have many variations: is it not enough to have one bit describing the SSN and DLL sizes?\n- both on 2 octets \u2192 we save 4 octets\n- both on 4 octets \u2192 same situation as before\n\nWDYT?\n",
+          "createdAt": "2026-02-23T16:44:01Z",
+          "updatedAt": "2026-02-23T16:44:01Z",
+          "comments": []
+        }
+      ]
     }
   ]
 }
